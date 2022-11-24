@@ -1,0 +1,8 @@
+int n = 1;
+int m = 15;
+int x = 0; 
+for (int i = n; i <= m; i++)
+{
+    x = x + i;
+}
+Console.WriteLine(x);
