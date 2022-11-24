@@ -1,0 +1,8 @@
+string Reverse(int n)
+{
+    if (n == 1) return("1");
+    else return($"{n}" + ',' + $"{Reverse(n-1)}");    
+ 
+}
+string x = Reverse(10);
+Console.WriteLine(x);
